@@ -112,7 +112,7 @@ main {
 #cover-text {
     /*final rgba value sets the opacity so its semi transparent*/
     background-color: rgba(241, 109, 107, .7);
-    font-size: 130;
+    font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -185,7 +185,7 @@ hr {
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens of less than400px wide.
-    Each div will expand to fill available spce on its row*/
+    Each div will expand to fill available spce on its row */
     flex-basis: 200px;
     flex-grow: 1;
     /*creates a grid for meetup time divs over the background image */
